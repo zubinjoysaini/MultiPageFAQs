@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os, re, time, io
 import requests
 import pandas as pd
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 
 # -----------------------
 # Load keys
@@ -309,5 +309,6 @@ if generate:
             file_name="all_topics_QA_workbook.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+
 
     st.success("All done — files ready for download.")
