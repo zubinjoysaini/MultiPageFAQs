@@ -1,10 +1,10 @@
 streamlit
 openai
-dotenv
+python-dotenv
+pandas
 os 
 re 
 time 
 io
 requests
-pandas
 serpapi
