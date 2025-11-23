@@ -1,0 +1,10 @@
+streamlit
+openai
+dotenv
+os 
+re 
+time 
+io
+requests
+pandas
+serpapi
