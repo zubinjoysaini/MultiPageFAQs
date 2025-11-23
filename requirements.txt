@@ -2,9 +2,7 @@ streamlit
 openai
 python-dotenv
 pandas
-os 
-re 
-time 
-io
 requests
 serpapi
+openpyxl
+
